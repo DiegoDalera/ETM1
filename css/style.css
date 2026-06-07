@@ -7634,21 +7634,44 @@ img{
 .contact-form input[type="email"],
 .contact-form input[type="password"],
 .contact-form select,
-.contact-form textarea{
-	display:block;
-	width:100%;
-	height:55px;
-	font-size:16px;
-	color:#848484;
-	line-height:30px;
-	padding:12px 25px;
-	font-weight:300;
-	background-color:#fffffff;
-	border:1px solid #efefef;
-	transition:all 500ms ease;
-	-webkit-transition:all 500ms ease;
-	-ms-transition:all 500ms ease;
-	-o-transition:all 500ms ease;	
+
+
+#contacto .contact-info-item{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-bottom:18px;
+    color:#ffffff;
+    font-size:15px;
+}
+
+#contacto .contact-info-item i{
+    width:36px;
+    height:36px;
+    border:1px solid rgba(34,181,229,.45);
+    color:#22B5E5;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:50%;
+    font-size:15px;
+}
+
+#contacto input,
+#contacto textarea{
+    border:1px solid #D5DFE6 !important;
+    background:#ffffff !important;
+    color:#0B1D2D !important;
+    padding:14px 16px !important;
+}
+
+#contacto input:focus,
+#contacto textarea:focus{
+    border-color:#22B5E5 !important;
+}
+
+#contacto textarea{
+    min-height:150px;
 }
 
 .contact-form input:focus,
@@ -8311,4 +8334,43 @@ img{
 	font-size:16px;
 	font-weight:300;
 	line-height:1.8em;
+}
+
+
+#contacto .contact-info-item{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-bottom:18px;
+    color:#ffffff;
+    font-size:15px;
+}
+
+#contacto .contact-info-item i{
+    width:36px;
+    height:36px;
+    border:1px solid rgba(34,181,229,.45);
+    color:#22B5E5;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:50%;
+    font-size:15px;
+}
+
+#contacto input,
+#contacto textarea{
+    border:1px solid #D5DFE6 !important;
+    background:#ffffff !important;
+    color:#0B1D2D !important;
+    padding:14px 16px !important;
+}
+
+#contacto input:focus,
+#contacto textarea:focus{
+    border-color:#22B5E5 !important;
+}
+
+#contacto textarea{
+    min-height:150px;
 }
